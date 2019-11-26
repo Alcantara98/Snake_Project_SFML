@@ -1,8 +1,10 @@
 #include <iostream>
 #include "Game.hpp"
 #include "DEFINITIONS.hpp"
+#include <Windows.h>
 
 int main() {
-	SNAKY::Game(SCREEN_WIDTH, SCREEN_HEIGHT, "alpha");
-	return EXIT_SUCCESS;
+		SNAKY::Game game = SNAKY::Game(SCREEN_WIDTH, SCREEN_HEIGHT, "Snake");
+		game.Run();
+		return EXIT_SUCCESS;
 }

@@ -1,23 +1,32 @@
 #include "Game.hpp"
 #include "GameState.hpp"
+#include "SFML/Window.hpp"
 
 namespace SNAKY {
 	Game::Game(int width, int height, std::string title) {
 		_data->window.create(sf::VideoMode(width, height), title, sf::Style::Close | sf::Style::Titlebar);
-		_data->machine.ReplaceState(StateRef(new GameState(this->_data)));
-		this->Run();
+		sf::Image icon;
+		icon.loadFromFile(ICON); // File/Image/Pixel
+		unsigned int widthx = 225;
+		unsigned int heighty = 225;
+		_data->window.setIcon(widthx, heighty, icon.getPixelsPtr());
+		_data->machine.ReplaceState(StateRef(new GameState(this->_data))); // Here we use 'new' because the parameter asks for a pointer. 'new ...' is a pointer to object.
 	}
 
 	void Game::Run() {
 
-		float newTime, currentTime;
+		float newTime, timeElapsed;
+
+		newTime = _data->clock.getElapsedTime().asSeconds();
 
 		while (this->_data->window.isOpen()) {
-
-			newTime = this->clock.getElapsedTime().asSeconds();
-
-			this->_data->machine.GetActiveState()->Update(dt);
-			this->_data->machine.GetActiveState()->Draw(dt);
+			timeElapsed = _data->clock.getElapsedTime().asSeconds() - newTime;
+			if (timeElapsed > 0.03f) { //Controls Speed of Snake
+				this->_data->machine.GetActiveState()->Update();
+				this->_data->machine.GetActiveState()->Draw();
+				timeElapsed = 0;
+				newTime = _data->clock.getElapsedTime().asSeconds();
+			}
 		}
 	}
 }
