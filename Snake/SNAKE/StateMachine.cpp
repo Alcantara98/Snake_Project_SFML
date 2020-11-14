@@ -1,11 +1,11 @@
 #include "StateMachine.hpp"
 
 namespace SNAKY {
-	void StateMachine::ReplaceState(StateRef newState) {
+	void StateMachine::ReplaceState(std::unique_ptr<State> newState) {
 		this->_newState = std::move(newState);
 	}
 
-	StateRef& StateMachine::GetActiveState() {
+	std::unique_ptr<State>& StateMachine::GetActiveState() {
 		return this->_newState;
 	}
 }

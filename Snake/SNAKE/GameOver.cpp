@@ -27,7 +27,7 @@ namespace SNAKY {
 			}
 		}
 		if (changeState == true) {
-			_data->machine.ReplaceState(StateRef(new GameState(this->_data)));
+			_data->machine.ReplaceState(std::unique_ptr<State>(new GameState(this->_data)));
 		}
 	}
 	void GameOver::Draw() {

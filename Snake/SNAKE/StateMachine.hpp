@@ -6,14 +6,12 @@
 #include "DEFINITIONS.hpp"
 
 namespace SNAKY {
-	typedef std::unique_ptr<State> StateRef;
-
 	class StateMachine {
 	public:
-		void ReplaceState(StateRef newState);
-		StateRef& GetActiveState();
+		void ReplaceState(std::unique_ptr<State> newState);
+		std::unique_ptr<State>& GetActiveState();
 
 	private:
-		StateRef _newState;
+		std::unique_ptr<State> _newState;
 	};
 }

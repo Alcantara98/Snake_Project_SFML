@@ -10,7 +10,7 @@ namespace SNAKY {
 		unsigned int widthx = 225;
 		unsigned int heighty = 225;
 		_data->window.setIcon(widthx, heighty, icon.getPixelsPtr());
-		_data->machine.ReplaceState(StateRef(new GameState(this->_data))); // Here we use 'new' because the parameter asks for a pointer. 'new ...' is a pointer to object.
+		_data->machine.ReplaceState(std::unique_ptr<State>((new GameState(this->_data)))); // Here we use 'new' because the parameter asks for a pointer. 'new ...' is a pointer to object.
 	}
 
 	void Game::Run() {

@@ -744,7 +744,7 @@ namespace SNAKY {
 
 		//changeState becomes true if new head was already snake, hence gameover.
 		if (gameOver == true) {
-			_data->machine.ReplaceState(StateRef(new GameOver(this->_data)));
+			_data->machine.ReplaceState(std::unique_ptr<State>(new GameOver(this->_data)));
 		}
 	}
 
