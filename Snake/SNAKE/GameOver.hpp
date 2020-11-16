@@ -1,12 +1,5 @@
 #pragma once
-
-#include <SFML/Graphics.hpp>
-#include "State.hpp"
-#include "Game.hpp"
 #include "GameState.hpp"
-#include "GameOver.hpp"
-#include "StateMachine.hpp"
-#include <stdlib.h>
 
 namespace SNAKY {
 	class GameOver : public State {

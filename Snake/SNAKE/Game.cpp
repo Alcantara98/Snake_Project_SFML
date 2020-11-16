@@ -1,6 +1,5 @@
 #include "Game.hpp"
 #include "GameState.hpp"
-#include "SFML/Window.hpp"
 
 namespace SNAKY {
 	Game::Game(int width, int height, std::string title) {

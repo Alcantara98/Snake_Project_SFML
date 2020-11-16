@@ -1,13 +1,4 @@
-#include <sstream>
-#include <time.h>
-#include "DEFINITIONS.hpp"
 #include "GameState.hpp"
-#include "Board_Snake.hpp"
-#include "Game.hpp"
-#include <SFML/Graphics.hpp>
-#include <iostream>
-#include <stdlib.h>
-#include <ctime>
 
 namespace SNAKY {
 	GameState::GameState(GameDataRef data) : _data(data), headx(), heady(), tailx(), taily(), event(), snake(), movementWait(), headInitPosx(), headInitPosy() {
