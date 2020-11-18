@@ -15,4 +15,4 @@ To run current version, navigate to Snake_Project_SFML\Snake\x64\Release\ and ru
 This should only work on windows machines. Must be compiled in the other OS to run.
 
 * #### Step one
-** Install Visual Studio
+  * Install Visual Studio [here](https://visualstudio.microsoft.com/downloads/). I used the 2019 Community Edition.  [Here](https://www.youtube.com/watch?v=FBo5Cso-ufE) is a tutorial from youtube of how to install Visual Studio 2019.
