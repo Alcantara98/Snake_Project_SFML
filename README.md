@@ -6,7 +6,7 @@ I ended up creating a snake game where we could set the snake length and width t
 We could start with a snake where the width is longer than the length.
 I had a lot of fun creating this and will get back to it some time in the future.
 
-Backbone is finished. Need to add menu with settings to change snake parameters such as speed, width, length, etc.
+[Screenshot of the current version:](Alcantara98/Snake_Project_SFML/blob/master/Snake/SNAKE/screenshot.png)
 
 ##  Visual Studio & SFML Setup
 * #### Step one
