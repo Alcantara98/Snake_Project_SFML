@@ -8,5 +8,6 @@ I had a lot of fun creating this and will get back to it some time in the future
 
 Backbone is finished. Need to add menu with settings to change snake parameters such as speed, width, length, etc.
 
+##  Visual Studio & SFML Setup
 * #### Step one
   Install Visual Studio [here](https://visualstudio.microsoft.com/downloads/). I used the 2019 Community Edition.  [Here](https://www.youtube.com/watch?v=FBo5Cso-ufE) is a tutorial from youtube of how to install Visual Studio 2019.
