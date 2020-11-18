@@ -15,3 +15,5 @@
 #define ICON "icon.png"
 #define RESTART_PICTURE_LOC "restart.jpg"
 #define BACKGROUND_PICTURE "BackGround.jpg"
+
+#define SPEED 0.035f

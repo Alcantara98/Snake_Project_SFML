@@ -21,7 +21,7 @@ namespace SNAKY {
 
 		while (this->_data->window.isOpen()) {
 			timeElapsed = _data->clock.getElapsedTime().asSeconds() - newTime;
-			if (timeElapsed > 0.03f) { //Controls Speed of Snake
+			if (timeElapsed > SPEED) { //Controls Speed of Snake
 				this->_data->machine.GetActiveState()->Update();
 				this->_data->machine.GetActiveState()->Draw();
 				timeElapsed = 0;
