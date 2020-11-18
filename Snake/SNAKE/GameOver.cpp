@@ -1,4 +1,9 @@
+#include <SFML/Graphics.hpp>
+#include "State.hpp"
+#include "GameState.hpp"
 #include "GameOver.hpp"
+#include <stdlib.h>
+#include <iostream>
 
 namespace SNAKY {
 	GameOver::GameOver(GameDataRef data) : _data(data), event() {

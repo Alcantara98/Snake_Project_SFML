@@ -1,9 +1,11 @@
 #pragma once
 
+#include <sstream>
+#include <memory>
+#include <string>
 #include <SFML/Graphics.hpp>
-#include <SFML/Window.hpp>
 #include "StateMachine.hpp"
-#include "GameState.hpp"
+#include "DEFINITIONS.hpp"
 
 namespace SNAKY {
 	struct GameData {

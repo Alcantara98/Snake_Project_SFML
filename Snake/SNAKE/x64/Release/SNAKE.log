@@ -1,18 +1,11 @@
 ﻿  Game.cpp
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\GameOver.hpp(7,29): error C2061: syntax error: identifier 'GameDataRef'
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\GameOver.hpp(12,20): error C3646: '_data': unknown override specifier
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\GameOver.hpp(12,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\GameState.hpp(10,30): error C2061: syntax error: identifier 'GameDataRef'
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\GameState.hpp(19,20): error C3646: '_data': unknown override specifier
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\GameState.hpp(19,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\Game.cpp(12,81): error C2664: 'SNAKY::GameState::GameState(SNAKY::GameState &&)': cannot convert argument 1 from 'SNAKY::GameDataRef' to 'const SNAKY::GameState &'
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\Game.cpp(12,81): message : Reason: cannot convert from 'SNAKY::GameDataRef' to 'const SNAKY::GameState'
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\Game.cpp(12,73): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\GameState.hpp(36,2): message : see declaration of 'SNAKY::GameState::GameState'
+  GameOver.cpp
+  GameState.cpp
+  StateMachine.cpp
   main.cpp
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\GameOver.hpp(7,29): error C2061: syntax error: identifier 'GameDataRef'
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\GameOver.hpp(12,20): error C3646: '_data': unknown override specifier
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\GameOver.hpp(12,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\GameState.hpp(10,30): error C2061: syntax error: identifier 'GameDataRef'
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\GameState.hpp(19,20): error C3646: '_data': unknown override specifier
-C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\SNAKE\GameState.hpp(19,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  Generating code
+  28 of 160 functions (17.5%) were compiled, the rest were copied from previous compilation.
+    6 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SNAKE.vcxproj -> C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\x64\Release\SNAKE.exe
