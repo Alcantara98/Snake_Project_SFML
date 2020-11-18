@@ -1,8 +1,7 @@
-﻿  Board_Snake.cpp
-  Game.cpp
+﻿  Game.cpp
   GameOver.cpp
   GameState.cpp
-  main.cpp
   StateMachine.cpp
+  main.cpp
   Generating Code...
   SNAKE.vcxproj -> C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\x64\Debug\SNAKE.exe

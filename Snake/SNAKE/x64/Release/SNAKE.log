@@ -1,11 +1,12 @@
-﻿  Game.cpp
+﻿  Board_Snake.cpp
+  Game.cpp
   GameOver.cpp
   GameState.cpp
-  StateMachine.cpp
   main.cpp
+  StateMachine.cpp
   Generating code
-  28 of 160 functions (17.5%) were compiled, the rest were copied from previous compilation.
-    6 functions were new in current compilation
+  27 of 160 functions (16.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
     1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   SNAKE.vcxproj -> C:\Users\ashwe\Documents\GitHub\Snake_Project_SFML\Snake\x64\Release\SNAKE.exe
