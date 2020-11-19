@@ -6,7 +6,7 @@ I ended up creating a snake game where we could set the snake length and width t
 We could start with a snake where the width is longer than the length.
 I had a lot of fun creating this and will get back to it some time in the future.
 
-![Screenshot of the current version:](https://github.com/Alcantara98/Snake_Project_SFML/blob/master/Snake/SNAKE/screenshot.png = 300x300)
+![Screenshot of the current version:](https://github.com/Alcantara98/Snake_Project_SFML/blob/master/Snake/SNAKE/screenshot.jpg)
 
 ##  Visual Studio & SFML Setup
 * #### Step one
