@@ -4,7 +4,9 @@ Snake Project to learn SFML for creating C++ games.
 My original plan was to create a snake game where the snake is made of square blocks.
 I ended up creating a snake game where we could set the snake length and width to our liking making the source code a bit longer.
 We could start with a snake where the width is longer than the length.
-I had a lot of fun creating this and will get back to it some time in the future.
+I had a lot of fun creating this and will get back to it some time in the future.  
+  
+If you want to check out the game, there is a release build in Snake_Project_SFML\Snake\x64\Release folder. Just run 'SNAKE.exe' to run the game. Should only work in windows 10 OSs.
 
 ![Screenshot of the current version:](https://github.com/Alcantara98/Snake_Project_SFML/blob/master/Snake/SNAKE/screenshot.jpg)
 ## Technologies
@@ -21,6 +23,4 @@ I had a lot of fun creating this and will get back to it some time in the future
   Now, we need to add the bins and libraries of SFML which are required for the project. Watch [this](https://www.youtube.com/watch?v=YfMQyOw1zik) to set up SFML for windows visual. Now we should be able to build the project.
   
 ## Status
-I have not touched this in a couple of months now. May add a main menu to and a users file to save best scores. To make it more difficult, we could add obstacles and create a maze-like environment.  
-  
-If you want to check out the game, there is a release build in Snake_Project_SFML\Snake\x64\Release folder. Just run 'SNAKE.exe' to run the game. Should only work in windows 10 OSs.
+I have not touched this in a couple of months now. May add a main menu and a users file to save best scores. To make it more difficult, we could add obstacles and create a maze-like environment.
