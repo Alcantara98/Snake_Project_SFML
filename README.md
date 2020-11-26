@@ -3,7 +3,7 @@
 Snake Project to learn SFML for creating C++ games.
 My original plan was to create a snake game where the snake is made of square blocks.
 I ended up creating a snake game where we could set the snake length and width to our liking making the source code a bit longer.
-We could start with a snake where the width is longer than the length.
+We could start with a snake where the width is longer than the length. The code for the snake could be found in GameState.cpp.
 I had a lot of fun creating this and will get back to it some time in the future.  
   
 If you want to check out the game, there is a release build in Snake_Project_SFML\Snake\x64\Release folder. Just run 'SNAKE.exe' to run the game. Should only work in windows 10 OSs.
